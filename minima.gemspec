@@ -21,4 +21,8 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.1"
 
   spec.add_development_dependency "bundler"
+
+  spec.add_runtime_dependency "base64"
+  spec.add_runtime_dependency "csv"
+  spec.add_runtime_dependency "logger"
 end
